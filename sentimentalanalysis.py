@@ -11,7 +11,7 @@ from clarifai_grpc.grpc.api.status import status_code_pb2
 
 def get_sentiment(text):
     # Your PAT (Personal Access Token) can be found in the portal under Authentification
-    PAT = '84709ba461ad4f7594ea1c807a068571'
+    PAT = 'YOUR_PAT'
     # Specify the correct user_id/app_id pairings
     # Since you're making inferences outside your app's scope
     USER_ID = 'erfan'
