@@ -1,16 +1,16 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from clarifai.client.model import Model
 from clarifai.client.input import Inputs
 from PIL import Image
 import io
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Get Clarifai API key from environment variables
-clarifai_pat = os.getenv('03cd1314619a4a72827143c3ada117ea')
+clarifai_pat = '03cd1314619a4a72827143c3ada117ea'
 
 def generate_dream_image(prompt):
     inference_params = dict(quality="standard", size='1024x1024')
