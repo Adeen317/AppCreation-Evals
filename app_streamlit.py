@@ -10,7 +10,7 @@ import io
 load_dotenv()
 
 # Get Clarifai API key from environment variables
-clarifai_pat = os.getenv('CLARIFAI_PAT')
+clarifai_pat = os.getenv('03cd1314619a4a72827143c3ada117ea')
 
 def generate_dream_image(prompt):
     inference_params = dict(quality="standard", size='1024x1024')
